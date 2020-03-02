@@ -19,7 +19,7 @@ Just clone the repo into your local environment (check github for the How-To) af
 You can pull the docker image from docker hub locally and run it with the below command (Dockerfile can be found under docker folder).
 > docker pull ahmedmoali/production-engineering-tools:v1
 
-> docker run -p 8080:8080 ahmedmoali/production-engineering-tools
+> docker run -p 8080:8080 ahmedmoali/production-engineering-tools:v1
 
 You can override the representative and companies endpoints if needed by passing the SPRING_APPLICATION_JSON as an environment variable 
 > -e SPRING_APPLICATION_JSON='{"representatives":{"rest":{"endpoint":{"url":"http://www.mocky.io/v2/5df917f5300000d45688a1b4"}}},"companies":{"rest":{"endpoint":{"url":"http://www.mocky.io/v2/5df8fc57300000d45688a10e"}}}}'
