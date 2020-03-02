@@ -2,11 +2,6 @@
 
 This is a simple Spring Boot application with that reads representatives and companies from different system and create opportunities based on these information.
 
-
-# Code Repo. 
-
-The sample application is hosted on **github** and can be access through this URL [https://github.com/AhmedMoAli/pet](https://github.com/AhmedMoAli/pet) , 
-
 # Installation
 
 You can install and run this application in multiple ways as shown below
@@ -20,7 +15,7 @@ Just clone the repo into your local environment (check github for the How-To) af
 
 ## Docker
 
-You can pull the docker image from docker hub locally and run it with the below command.
+You can pull the docker image from docker hub locally and run it with the below command (Dockerfile can be found under docker folder).
 > docker pull ahmedmoali/production-engineering-tools:v1
 > docker run -p 8080:8080 ahmedmoali/production-engineering-tools
 
@@ -29,9 +24,9 @@ You can override the representative and companies endpoints if needed by passing
 
 ## Kubernetes
 
-You can deploy the application using kubernetes by just running the below commands.
-> kubectl create -f k8s/service.yaml
-> kubectl create -f k8s/deployment.yaml
+You can deploy the application using kubernetes by just running the below commands (k8s files can be found under k8s folder).
+> kubectl create -f service.yaml
+> kubectl create -f deployment.yaml
 
 After that you need to query the service and get the port that it is listening on by doing this 
 > kubectl get svc
