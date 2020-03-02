@@ -9,8 +9,9 @@ The application landing page will display list of opportunities and you can also
 
 ## Java Code
 
-Just clone the repo into your local environment (check github for the How-To) after that you can run the below commands to have it up and running on port 8080.
+Just clone the repo into your local environment (check github for the How-To) after that you can run the below commands to have it up and running on port 8080, when running mvn clean install it will also run the unit testing.
 >  mvn clean install
+
 >  mvn spring-boot:run
 
 ## Docker
