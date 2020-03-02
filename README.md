@@ -1,6 +1,6 @@
 # Getting Started
 
-This is a simple Spring Boot application with that reads representatives and companies from different system and create opportunities based on these information.
+This is a simple Spring Boot application that reads representatives and companies from different system and create opportunities based on these information.
 
 # Installation
 
