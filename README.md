@@ -1,11 +1,6 @@
 # Getting Started
 
-This is a simple Spring Boot application with that reads representatives and companies from different system and create opportunities based on these information.
-
-
-# Code Repo. 
-
-The sample application is hosted on **github** and can be access through this URL [https://github.com/AhmedMoAli/pet](https://github.com/AhmedMoAli/pet) , 
+This is a simple Spring Boot application that reads representatives and companies from different system and create opportunities based on these information.
 
 # Installation
 
@@ -14,23 +9,26 @@ The application landing page will display list of opportunities and you can also
 
 ## Java Code
 
-Just clone the repo into your local environment (check github for the How-To) after that you can run the below commands to have it up and running on port 8080.
+Just clone the repo into your local environment (check github for the How-To) after that you can run the below commands to have it up and running on port 8080, when running mvn clean install it will also run the unit testing.
 >  mvn clean install
+
 >  mvn spring-boot:run
 
 ## Docker
 
-You can pull the docker image from docker hub locally and run it with the below command.
+You can pull the docker image from docker hub locally and run it with the below command (Dockerfile can be found under docker folder).
 > docker pull ahmedmoali/production-engineering-tools:v1
-> docker run -p 8080:8080 ahmedmoali/production-engineering-tools
+
+> docker run -p 8080:8080 ahmedmoali/production-engineering-tools:v1
 
 You can override the representative and companies endpoints if needed by passing the SPRING_APPLICATION_JSON as an environment variable 
 > -e SPRING_APPLICATION_JSON='{"representatives":{"rest":{"endpoint":{"url":"http://www.mocky.io/v2/5df917f5300000d45688a1b4"}}},"companies":{"rest":{"endpoint":{"url":"http://www.mocky.io/v2/5df8fc57300000d45688a10e"}}}}'
 
 ## Kubernetes
 
-You can deploy the application using kubernetes by just running the below commands.
+You can deploy the application using kubernetes by just running the below commands (k8s files can be found under k8s folder).
 > kubectl create -f service.yaml
+
 > kubectl create -f deployment.yaml
 
 After that you need to query the service and get the port that it is listening on by doing this 
