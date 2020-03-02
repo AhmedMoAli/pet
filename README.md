@@ -30,8 +30,8 @@ You can override the representative and companies endpoints if needed by passing
 ## Kubernetes
 
 You can deploy the application using kubernetes by just running the below commands.
-> kubectl create -f service.yaml
-> kubectl create -f deployment.yaml
+> kubectl create -f k8s/service.yaml
+> kubectl create -f k8s/deployment.yaml
 
 After that you need to query the service and get the port that it is listening on by doing this 
 > kubectl get svc
