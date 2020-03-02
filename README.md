@@ -17,6 +17,7 @@ Just clone the repo into your local environment (check github for the How-To) af
 
 You can pull the docker image from docker hub locally and run it with the below command (Dockerfile can be found under docker folder).
 > docker pull ahmedmoali/production-engineering-tools:v1
+
 > docker run -p 8080:8080 ahmedmoali/production-engineering-tools
 
 You can override the representative and companies endpoints if needed by passing the SPRING_APPLICATION_JSON as an environment variable 
@@ -26,6 +27,7 @@ You can override the representative and companies endpoints if needed by passing
 
 You can deploy the application using kubernetes by just running the below commands (k8s files can be found under k8s folder).
 > kubectl create -f service.yaml
+
 > kubectl create -f deployment.yaml
 
 After that you need to query the service and get the port that it is listening on by doing this 
