@@ -1,0 +1,83 @@
+[
+  {
+    "FID": 1,
+    "OBJECTID": 1,
+    "RANK": 49,
+    "NAME": "ALBERTSONS COS.",
+    "ADDRESS": "250 PARKCENTER BOULEVARD",
+    "ADDRESS2": "NOT AVAILABLE",
+    "CITY": "BOISE",
+    "STATE": "ID",
+    "ZIP": "83706",
+    "COUNTY": "ADA",
+    "EMPLOYEES": 274000,
+    "REVENUES": 58734,
+    "LATITUDE": 43.59974,
+    "LONGITUDE": -116.18099,
+    "SOURCE": "BING MAPS",
+    "PRC": "ADDRESS",
+    "COUNTYFIPS": "16001",
+    "COMMENTS": "NOT AVAILABLE",
+    "WEBSITE": "HTTPS://WWW.ALBERTSONS.COM/#1",
+    "PROFIT": -502.2,
+    "CONTACT": {
+      "NAME": "Daniel Jayne",
+      "EMAIL": "JayneADaniel@jourrapide.com",
+      "PHONE": "(07) 4961 5112"
+    }
+  },
+  {
+    "FID": 2,
+    "OBJECTID": 2,
+    "RANK": 226,
+    "NAME": "MICRON TECHNOLOGY",
+    "ADDRESS": "8000 SOUTH FEDERAL WAY",
+    "ADDRESS2": "NOT AVAILABLE",
+    "CITY": "BOISE",
+    "STATE": "ID",
+    "ZIP": "83716",
+    "COUNTY": "ADA",
+    "EMPLOYEES": 31400,
+    "REVENUES": 12399,
+    "LATITUDE": 43.52925,
+    "LONGITUDE": -116.14697,
+    "SOURCE": "BING MAPS",
+    "PRC": "ADDRESS",
+    "COUNTYFIPS": "16001",
+    "COMMENTS": "NOT AVAILABLE",
+    "WEBSITE": "HTTPS://WWW.MICRON.COM/",
+    "PROFIT": -276,
+    "CONTACT": {
+      "NAME": "Blanco Julia",
+      "EMAIL": "JuliaMBlanco@superrito.com",
+      "PHONE": "(02) 4015 2417"
+    }
+  },
+  {
+    "FID": 3,
+    "OBJECTID": 3,
+    "RANK": 290,
+    "NAME": "NORTH POLE LABORATORY CORP. OF AMERICA",
+    "ADDRESS": "NORTH POLE",
+    "ADDRESS2": "NOT AVAILABLE",
+    "CITY": "BURLINGTON",
+    "STATE": "NC",
+    "ZIP": "27215",
+    "COUNTY": "ALAMANCE",
+    "EMPLOYEES": 52000,
+    "REVENUES": 9642,
+    "LATITUDE": 90.0000,
+    "LONGITUDE": 135.0000,
+    "SOURCE": "BING MAPS",
+    "PRC": "ADDRESS",
+    "COUNTYFIPS": "37001",
+    "COMMENTS": "NOT AVAILABLE",
+    "WEBSITE": "HTTPS://WWW.LABCORP.COM/",
+    "PROFIT": 732.1,
+    "CONTACT": {
+      "NAME": "Rappaport Irene",
+      "EMAIL": "IreneDRappaport@teleworm.us",
+      "PHONE": "(08) 9077 5800"
+    }
+  }
+]
